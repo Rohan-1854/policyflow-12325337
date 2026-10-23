@@ -1,0 +1,12 @@
+{
+  "client_request_id": "AGT-DEMO-TEMPFAIL",
+  "agent_id": "AGENT-17",
+  "customer_name": "Sample Customer",
+  "date_of_birth": "1998-04-10",
+  "destination": "DOMESTIC",
+  "trip_start": "2026-12-01",
+  "trip_end": "2026-12-03",
+  "plan_code": "BASIC",
+  "sum_insured": 100000,
+  "mock_scenario": "TEMPORARY_FAILURE"
+}

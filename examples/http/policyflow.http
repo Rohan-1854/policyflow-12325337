@@ -1,0 +1,30 @@
+### PolicyFlow requests for the VS Code "REST Client" extension or PhpStorm HTTP client.
+@base = http://127.0.0.1:8000
+
+### Create (201), run again for 200
+# @name create
+POST {{base}}/api/policy-requests
+Accept: application/json
+Content-Type: application/json
+
+< ../requests/create-example.json
+
+### Read with audit trail
+GET {{base}}/api/policy-requests/{{create.response.body.data.id}}
+Accept: application/json
+
+### Submit (start or safely resume issuance)
+POST {{base}}/api/policy-requests/{{create.response.body.data.id}}/submit
+Accept: application/json
+
+### List with filter and pagination
+GET {{base}}/api/policy-requests?status=ISSUED&per_page=10&page=1
+Accept: application/json
+
+### Mock insurer: deliver pending callbacks (DELAYED_CALLBACK / DUPLICATE_CALLBACK)
+POST {{base}}/api/mock-insurer/deliver-callbacks
+Accept: application/json
+
+### Mock insurer: provider status lookup by policy request id
+GET {{base}}/api/mock-insurer/policies/{{create.response.body.data.id}}
+Accept: application/json

@@ -1,0 +1,12 @@
+{
+  "client_request_id": "AGT-DEMO-DELAYED",
+  "agent_id": "AGENT-17",
+  "customer_name": "Sample Customer",
+  "date_of_birth": "1998-04-10",
+  "destination": "INTERNATIONAL",
+  "trip_start": "2027-01-05",
+  "trip_end": "2027-01-09",
+  "plan_code": "PLUS",
+  "sum_insured": 300000,
+  "mock_scenario": "DELAYED_CALLBACK"
+}

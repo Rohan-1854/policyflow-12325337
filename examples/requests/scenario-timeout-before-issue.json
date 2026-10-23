@@ -1,0 +1,12 @@
+{
+  "client_request_id": "AGT-DEMO-TIMEOUT-NOISSUE",
+  "agent_id": "AGENT-17",
+  "customer_name": "Sample Customer",
+  "date_of_birth": "1998-04-10",
+  "destination": "DOMESTIC",
+  "trip_start": "2026-12-05",
+  "trip_end": "2026-12-06",
+  "plan_code": "PLUS",
+  "sum_insured": 300000,
+  "mock_scenario": "TIMEOUT_BEFORE_ISSUE"
+}

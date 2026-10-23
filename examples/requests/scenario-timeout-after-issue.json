@@ -1,0 +1,12 @@
+{
+  "client_request_id": "AGT-DEMO-TIMEOUT",
+  "agent_id": "AGENT-17",
+  "customer_name": "Sample Customer",
+  "date_of_birth": "1998-04-10",
+  "destination": "INTERNATIONAL",
+  "trip_start": "2026-12-20",
+  "trip_end": "2026-12-27",
+  "plan_code": "PREMIUM",
+  "sum_insured": 500000,
+  "mock_scenario": "TIMEOUT_AFTER_ISSUE"
+}

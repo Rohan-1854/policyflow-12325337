@@ -1,0 +1,12 @@
+{
+  "client_request_id": "AGT-DEMO-DUPCB",
+  "agent_id": "AGENT-17",
+  "customer_name": "Sample Customer",
+  "date_of_birth": "1998-04-10",
+  "destination": "INTERNATIONAL",
+  "trip_start": "2027-02-01",
+  "trip_end": "2027-02-10",
+  "plan_code": "BASIC",
+  "sum_insured": 100000,
+  "mock_scenario": "DUPLICATE_CALLBACK"
+}

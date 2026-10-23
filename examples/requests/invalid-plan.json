@@ -1,0 +1,11 @@
+{
+  "client_request_id": "AGT-DEMO-BADPLAN",
+  "agent_id": "AGENT-17",
+  "customer_name": "Sample Customer",
+  "date_of_birth": "1998-04-10",
+  "destination": "DOMESTIC",
+  "trip_start": "2026-11-10",
+  "trip_end": "2026-11-14",
+  "plan_code": "GOLD",
+  "sum_insured": 300000
+}
