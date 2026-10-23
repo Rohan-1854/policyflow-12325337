@@ -3,8 +3,19 @@
     "name": "rohan-1854/policyflow",
     "type": "project",
     "description": "PolicyFlow - fault-tolerant travel insurance issuance and reconciliation engine (TrippersShield campus challenge).",
-    "keywords": ["laravel", "idempotency", "insurance", "reconciliation"],
+    "keywords": [
+        "laravel",
+        "idempotency",
+        "insurance",
+        "reconciliation"
+    ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Rohan Raj",
+            "role": "Developer (Lovely Professional University, Reg. No. 12325337)"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",

@@ -1,5 +1,9 @@
 # PolicyFlow
 
+**Author:** Rohan Raj  
+**College:** Lovely Professional University  
+**Registration number:** 12325337
+
 Fault-tolerant travel-insurance issuance and reconciliation engine, built for the
 TrippersShield campus engineering challenge.
 
