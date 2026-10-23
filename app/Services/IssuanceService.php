@@ -357,7 +357,7 @@ class IssuanceService
             return false;
         }
 
-        $latestIssueId = $request->attempts()->where('kind', IssuanceAttempt::KIND_ISSUE)->max('id');
+        $latestIssueId = $request->attempts()->reorder()->where('kind', IssuanceAttempt::KIND_ISSUE)->max('id');
 
         return (int) $latestIssueId === (int) $attempt->id;
     }

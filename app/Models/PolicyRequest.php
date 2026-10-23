@@ -173,6 +173,8 @@ class PolicyRequest extends Model
     /** Next sequence number for an issuance_attempts row. Call under row lock. */
     public function nextAttemptSequence(): int
     {
-        return ((int) $this->attempts()->max('sequence')) + 1;
+        // reorder(): the relation is ordered, and ORDER BY next to an aggregate
+        // is rejected by PostgreSQL / MySQL ONLY_FULL_GROUP_BY.
+        return ((int) $this->attempts()->reorder()->max('sequence')) + 1;
     }
 }
